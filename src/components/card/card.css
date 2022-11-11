@@ -1,0 +1,81 @@
+/*.card-comp {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+
+.card-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+}*/
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+ }
+.card-infos div section img {
+    width: 30px;
+}
+
+.card-comp div  {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+} 
+.card-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    min-width: 270px;
+    min-height: 570px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.card-comp:hover{
+    background-color: lightgray;
+    transition: 0.3s;
+}
+
+.card-comp section.card-data {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(150,63,150,0.4);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-comp section.card-data p {
+    border-radius: 10px;
+        width: 5px;
+        padding: 10px;
+    background-color: rgba(150, 63, 150, 0.7);
+}
+
+.card-comp section.card-img {
+    width: 100%;
+
+}
+
+.card-comp section h1 {
+    background-color: rgba(150, 63, 150, 0.4);
+}
